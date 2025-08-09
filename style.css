@@ -1,0 +1,150 @@
+.top{
+    font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: xxx-large;
+}
+
+.span{
+    color: #b12139;
+}
+.alex{
+  font-family: "Manufacturing Consent", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.Aimg{
+    height: 200px;
+    width: 200px;
+    
+    border-radius: 50%;
+    
+}
+
+.header {
+  background: linear-gradient(300deg, #0f1010, white, #af7e13);
+  background-size: 180% 180%;
+  animation: gradient-animation 10s ease infinite;
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+  height: 75vh;
+}
+
+
+.bio{
+    margin-top: 60px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 80px;
+
+}
+.statu{
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.bbb{
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 40px;
+  color:#553f10
+}
+.container1{
+    display:fx;
+ 
+}
+
+p{
+    font-family: "Cardo", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+.ppp{
+    font-size: large;
+}
+
+
+.get{
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  color:#710618
+}
+
+.contact{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    background: #11cdd4;
+    background-image: linear-gradient(to bottom, grey, rgb(130, 115, 33));
+    animation: gradient-animation 10s ease infinite;
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+
+}
+
+.contact{
+    margin-top: 80px;
+}
+
+
+.hunt{
+  width: 200px;
+  height: 200px;
+  object-fit: cover; /* Keeps image proportions */
+   clip-path: polygon(
+   30% 0%,   /* Top left */
+    70% 0%,   /* Top right */
+    100% 30%, /* Right top */
+    100% 70%, /* Right bottom */
+    70% 100%, /* Bottom right */
+    30% 100%, /* Bottom left */
+    0% 70%,   /* Left bottom */
+    0% 30%    /* Left top */
+  );
+  margin-top: 30px;
+  margin-bottom: 30px
+}
+
+
+.past{
+    margin-top: 0px;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+.foot{
+    background: linear-gradient(300deg, #0f1010, white, #af7e13);
+  background-size: 180% 180%;
+  animation: gradient-animation 10s ease infinite;
+}
